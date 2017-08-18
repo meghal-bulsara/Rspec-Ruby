@@ -4,14 +4,14 @@ class Split
   end
 
   def find_avg(group)
-    sum = 0
+    sum = 0.0
     count = 0
     group.each do |key, value|
       sum += value
       count += 1
     end
     avg = sum / count
-    return avg
+    return avg.round(2)
   end
 
   def split_the_bill

@@ -6,6 +6,6 @@ describe "split the bill" do
                        'B'=>15,
                        'C'=>10
                        })
-    expect(group.split_the_bill).to eq ({"A"=>-5, "B"=>0, "C"=>5})
+    expect(group.split_the_bill).to eq ({"A"=>-5.0, "B"=>0.0, "C"=>5.0})
   end
 end
