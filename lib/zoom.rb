@@ -1,4 +1,4 @@
-class Helpzoom
+class Zoom
   attr_reader :numbers
   def initialize(numbers)
     @numbers = numbers;
@@ -17,7 +17,3 @@ class Helpzoom
     return (left_array == right_array)
   end
 end
-
-zoom = Helpzoom.new([1,0,1,0,0,0,1,0,1]);
-puts zoom.is_valid;
-puts zoom.is_symmetric;
