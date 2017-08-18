@@ -18,9 +18,3 @@ class Race
 
   end
 end
-
-
-race = Race.new(720,850,70);
-race1 = Race.new(850,700,10);
-puts race1.time_to_catch
-puts race.time_to_catch
